@@ -5,19 +5,19 @@ This project demonstrates how to build an end-to-end **Lakehouse ETL pipeline** 
 
 ---
 
-## 🚀 Project Highlights
+## Project Highlights
 
-- ✅ Built a **Medallion-based Sales Analytics Lakehouse**
-- ✅ Loaded raw Sales, Customer, and Product data into **Bronze layer**
-- ✅ Used **append-only ingestion** for raw data landing
-- ✅ Implemented **Silver layer cleansing + standardization**
-- ✅ Implemented **SCD Type 2** for Customer/Product history tracking
-- ✅ Built **Gold reporting tables** using joins and derived KPIs
-- ✅ Designed pipeline suitable for **Databricks / Spark / Delta Lake**
+- Built a **Medallion-based Sales Analytics Lakehouse**
+- Loaded raw Sales, Customer, and Product data into **Bronze layer**
+- Used **append-only ingestion** for raw data landing
+- Implemented **Silver layer cleansing + standardization**
+- Implemented **SCD Type 2** for Customer/Product history tracking
+- Built **Gold reporting tables** using joins and derived KPIs
+- Designed pipeline suitable for **Databricks / Spark / Delta Lake**
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ### **Bronze Layer (Raw)**
 - Stores raw data as-is
@@ -37,7 +37,7 @@ This project demonstrates how to build an end-to-end **Lakehouse ETL pipeline** 
 
 ---
 
-## 📂 Dataset Used
+## Dataset Used
 
 This pipeline uses 3 core datasets:
 
@@ -70,7 +70,7 @@ Example fields:
 
 ---
 
-## 🧱 Medallion Data Model
+## Medallion Data Model
 
 ### Bronze Tables
 | Table Name | Description |
@@ -100,7 +100,7 @@ Example fields:
 
 ---
 
-## 🔄 Pipeline Flow
+## Pipeline Flow
 
 ```text
 Raw CSV Files
